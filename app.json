@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "SportsPlay",
+    "slug": "sportsplay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "sportsplay",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3737ba33-0b7c-4cb1-acd1-c543a058b267"
+      }
+    },
+    "android": {
+      "package": "com.kshitij162005.sportsplay"
+    }
+  }
+}
